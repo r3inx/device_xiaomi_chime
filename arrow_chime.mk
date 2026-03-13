@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from chime device
 $(call inherit-product, device/xiaomi/chime/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Arrow stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_chime
@@ -34,4 +34,4 @@ TARGET_ENABLE_BLUR := false
 
 # Set to true for building a ROM without GAPPS
 # Set to false for building a ROM with GAPPS included
-RESERVE_SPACE_FOR_GAPPS := true
+RESERVE_SPACE_FOR_GAPPS := false
