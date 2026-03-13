@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/chime/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_chime
+PRODUCT_NAME := arrow_chime
 PRODUCT_DEVICE := chime
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6115
